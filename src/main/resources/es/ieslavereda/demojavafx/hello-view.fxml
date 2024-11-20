@@ -1,14 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="es.ieslavereda.demojavafx.controller.ExampleTaskJFXController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ieslavereda.demojavafx.controller.ExampleTaskJFXController">
+    <children>
 
-    <Label fx:id="label" text="Label" />
-    <Button onAction="#onHelloButtonClick" text="Start" />
-</VBox>
+        <Label fx:id="Filosofo1" layoutX="166.0" layoutY="8.0" text="Filosofo">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+        <Button layoutX="176.0" layoutY="320.0" onAction="#onHelloButtonClick" prefWidth="50.0" text="Start" />
+      <Label fx:id="Filosofo2" layoutX="20.0" layoutY="92.0" text="Filosofo">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Filosofo3" layoutX="90.0" layoutY="230.0" text="Filosofo">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Filosofo4" layoutX="324.0" layoutY="92.0" text="Filosofo">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Filosofo5" layoutX="254.0" layoutY="230.0" text="Filosofo">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tenedor1" layoutX="68.0" layoutY="143.0" text="Tenedor">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tenedor2" layoutX="164.0" layoutY="200.0" text="Tenedor">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tenedor3" layoutX="263.0" layoutY="143.0" text="Tenedor">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tenedor4" layoutX="226.0" layoutY="70.0" text="Tenedor">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tenedor5" layoutX="117.0" layoutY="70.0" text="Tenedor">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+
+    </children>
+</AnchorPane>
